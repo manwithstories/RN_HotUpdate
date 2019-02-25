@@ -1,0 +1,6 @@
+framework module Pods_ReactNativeHotFix {
+  umbrella header "Pods-ReactNativeHotFix-umbrella.h"
+
+  export *
+  module * { export * }
+}

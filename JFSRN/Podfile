@@ -1,0 +1,13 @@
+target 'JFSRN' do
+pod 'React', :path => '../node_modules/react-native', :subspecs => [
+            'Core',
+            'DevSupport', 
+            'RCTText',
+            'RCTNetwork',
+            'RCTWebSocket', 
+            'RCTImage',
+            'BatchedBridge',
+            'RCTAnimation']
+pod "Yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
+ 
+end
